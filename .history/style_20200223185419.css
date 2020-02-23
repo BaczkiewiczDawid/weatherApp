@@ -61,7 +61,7 @@ body, html {
 }
 span {
     animation-name: appear;
-    animation-duration:.8s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     animation-direction: normal;
 }

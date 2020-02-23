@@ -63,7 +63,7 @@ span {
     animation-name: appear;
     animation-duration:.8s;
     animation-iteration-count: 1;
-    animation-direction: normal;
+    animation-direction: ease;
 }
 @keyframes appear {
     from {

@@ -20,30 +20,6 @@ body, html {
     justify-content: space-around;
     align-items: center;
 }
-.location-timezone {
-    animation-name: appear;
-    animation-duration: .8s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-}
-.icon {
-    animation-name: appear;
-    animation-duration: .8s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-}
-.temperature-degree {
-    animation-name: appear;
-    animation-duration: .8s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-}
-.temperature-description {
-    animation-name: appear;
-    animation-duration: .8s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-}
 .temperature {
     flex-direction: column;
 }
@@ -59,16 +35,11 @@ body, html {
 .degree-section h2 {
     font-size: 40px;
 }
-span {
-    animation-name: appear;
-    animation-duration:.8s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-}
+
 @keyframes appear {
     from {
         opacity: 0;
-        transform: translateY(50px);
+        transform: translateY(-50px);
     }
     to {
         opacity: 1;

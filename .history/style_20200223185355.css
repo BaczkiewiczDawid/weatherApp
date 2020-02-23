@@ -22,25 +22,25 @@ body, html {
 }
 .location-timezone {
     animation-name: appear;
-    animation-duration: .8s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     animation-direction: normal;
 }
 .icon {
     animation-name: appear;
-    animation-duration: .8s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     animation-direction: normal;
 }
 .temperature-degree {
     animation-name: appear;
-    animation-duration: .8s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     animation-direction: normal;
 }
 .temperature-description {
     animation-name: appear;
-    animation-duration: .8s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     animation-direction: normal;
 }
@@ -61,7 +61,7 @@ body, html {
 }
 span {
     animation-name: appear;
-    animation-duration:.8s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     animation-direction: normal;
 }
