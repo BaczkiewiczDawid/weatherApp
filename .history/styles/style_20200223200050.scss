@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+}
+.location, .temperature {
+    height: 30vh;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.location-timezone {
+    animation-name: appear;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+.icon {
+    animation-name: appear;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+.temperature-degree {
+    animation-name: appear;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+.temperature-description {
+    animation-name: appear;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+.temperature {
+    flex-direction: column;
+}
+.degree-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.degree-section span {
+    margin: 10px;
+    font-size: 30px;
+}
+.degree-section h2 {
+    font-size: 40px;
+}
+span {
+    @import animation;
+}
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@mixin animation {
+    opacity: 0;
+    animation-name: appear;
+    animation-duration:.8s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
