@@ -25,27 +25,21 @@ body, html {
     animation-duration: .8s;
     animation-iteration-count: 1;
     animation-direction: normal;
-    animation-delay: .5s;
-    opacity: 0;
-    animation-fill-mode: forwards;
+    animation-delay: 1s;
 }
 .icon {
     animation-name: appear;
     animation-duration: .8s;
     animation-iteration-count: 1;
     animation-direction: normal;
-    animation-delay: .5s;
-    opacity: 0;
-    animation-fill-mode: forwards;
+    animation-delay: 1s;
 }
 .temperature-degree {
     animation-name: appear;
     animation-duration: .8s;
     animation-iteration-count: 1;
     animation-direction: normal;
-    animation-delay: .5s;
-    opacity: 0;
-    animation-fill-mode: forwards;
+    animation-delay: 1s;
 }
 .temperature-description {
     animation-name: appear;
@@ -53,8 +47,6 @@ body, html {
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-delay: 1s;
-    opacity: 0;
-    animation-fill-mode: forwards;
 }
 .temperature {
     flex-direction: column;
@@ -72,13 +64,11 @@ body, html {
     font-size: 40px;
 }
 span {
-    opacity: 0;
     animation-name: appear;
     animation-duration:.8s;
     animation-iteration-count: 1;
     animation-direction: normal;
-    animation-delay: .5s;
-    animation-fill-mode: forwards;
+    animation-delay: 1s;
 }
 @keyframes appear {
     from {
